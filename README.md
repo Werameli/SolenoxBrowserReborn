@@ -15,6 +15,12 @@ Simple web-browser written in Python
 - Pathlib
 - Time
 - Datetime
+- Altgraph
+- FBS
+- Future
+- Macholib
+- Pefile
+- CTypes
 
 ## Instructions for launching from source
 ```shell
