@@ -9,9 +9,9 @@ Simple web-browser written in Python
 
 ### List of libraries:
 - PyQT5
-- requests
-- os
-- sys
-- pathlib
-- time
-- datetime
+- Requests
+- OS
+- SYS
+- Pathlib
+- Time
+- Datetime
