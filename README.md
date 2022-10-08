@@ -15,3 +15,9 @@ Simple web-browser written in Python
 - Pathlib
 - Time
 - Datetime
+
+## Instructions for launching from source
+```shell
+pip install -r requirements.txt
+fbs run
+```
