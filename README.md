@@ -1,5 +1,6 @@
 # SolenoxBrowser
 Simple web-browser written in Python
+Some code were taken from: https://github.com/oborshch/coderlog-browser
 
 
 ### List of programming languages:
