@@ -9,6 +9,7 @@ Simple web-browser written in Python
 
 ### List of libraries:
 - PyQT5
+--
 - Requests
 - OS
 - SYS
