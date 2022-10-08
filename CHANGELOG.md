@@ -4,3 +4,4 @@
 ### Known issues:
 1. Wrong assets
 2. Non-UserFriendly interface
+3. Stange names of variables
