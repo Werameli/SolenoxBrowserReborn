@@ -8,8 +8,7 @@ Simple web-browser written in Python
 - CSS 3
 
 ### List of libraries:
-- PyQT5
---
+- PyQT5: Qtcore, QtGUI, QtWidgets, QtWebEngineWidgets
 - Requests
 - OS
 - SYS
