@@ -7,6 +7,7 @@ Forked some code from: https://github.com/oborshch/coderlog-browser
 - Python 3.10
 - HTML 5
 - CSS 3
+- JS
 
 ### List of libraries:
 - PyQT5: Qtcore, QtGUI, QtWidgets, QtWebEngineWidgets
