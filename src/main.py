@@ -307,10 +307,10 @@ class MainWindow(QMainWindow):
 
         self.tabs.setCurrentIndex(i)
 
-        browser.urlChanged.connect(lambda qurl, browser=browser:
-                                   self.update_urlbar(qurl, browser))
-        browser.loadFinished.connect(lambda _, i=i, browser=browser:
-                                     self.tabs.setTabText(i, browser.page().title()))
+        browser.urlChanged.connect(lambda qsite, brwser=browser:
+                                   self.update_urlbar(qsite, brwser))
+        browser.loadFinished.connect(lambda _, qs=i, brwser=browser:
+                                     self.tabs.setTabText(qs, brwser.page().title()))
 
     def tab_open_doubleclick(self, i):
         if i == -1:
