@@ -18,6 +18,7 @@ class AboutDialog(QDialog):
         self.buttonbox = QDialogButtonBox(QBtn)
         self.buttonbox.accepted.connect(self.accept)
         self.buttonbox.rejected.connect(self.reject)
+        self.setWindowFlags(Qt.FramelessWindowHint)
 
         layout = QVBoxLayout()
 

@@ -57,11 +57,11 @@ class MainWindow(QMainWindow):
 
             }
             QTabBar::close-button {
-                image: url('data/images/close.png');
+                image: url('data/images/close.svg');
                 subcontrol-position: right;
             }
             QTabBar::close-button:hover {
-                image: url('data/images/close-hover.png');
+                image: url('data/images/close.svg');
             }
             QLabel {
                 background-color: #23272a;
@@ -101,22 +101,22 @@ class MainWindow(QMainWindow):
             }
         """)
 
-        back_btn = QAction(QIcon(os.path.join('data/images', 'arrow-180.png')), "Back", self)
+        back_btn = QAction(QIcon(os.path.join('data/images', 'back.svg')), "Back", self)
         back_btn.setStatusTip("Back to previous page")
         back_btn.triggered.connect(lambda: self.tabs.currentWidget().back())
         navtb.addAction(back_btn)
 
-        next_btn = QAction(QIcon(os.path.join('data/images', 'arrow-000.png')), "Forward", self)
+        next_btn = QAction(QIcon(os.path.join('data/images', 'forward.svg')), "Forward", self)
         next_btn.setStatusTip("Forward to next page")
         next_btn.triggered.connect(lambda: self.tabs.currentWidget().forward())
         navtb.addAction(next_btn)
 
-        reload_btn = QAction(QIcon(os.path.join('data/images', 'arrow-circle-315.png')), "reload", self)
+        reload_btn = QAction(QIcon(os.path.join('data/images', 'refresh.svg')), "reload", self)
         reload_btn.setStatusTip("reload page")
         reload_btn.triggered.connect(lambda: self.tabs.currentWidget().reload())
         navtb.addAction(reload_btn)
 
-        stop_btn = QAction(QIcon(os.path.join('data/images', 'cross-circle.png')), "Stop", self)
+        stop_btn = QAction(QIcon(os.path.join('data/images', 'stop.svg')), "Stop", self)
         stop_btn.setStatusTip("Stop loading current page")
         stop_btn.triggered.connect(lambda: self.tabs.currentWidget().stop())
         navtb.addAction(stop_btn)
@@ -124,7 +124,7 @@ class MainWindow(QMainWindow):
         navtb.addSeparator()
 
         self.httpsicon = QLabel()
-        self.httpsicon.setPixmap(QPixmap(os.path.join('data/images', 'lock-nossl.png')))
+        self.httpsicon.setPixmap(QPixmap(os.path.join('data/images', 'ssloff.svg')))
         navtb.addWidget(self.httpsicon)
 
         self.urlbar = QLineEdit()
@@ -142,7 +142,7 @@ class MainWindow(QMainWindow):
             font: 12px/14px sans-serif
         """)
 
-        home_btn = QAction(QIcon(os.path.join('data/images', 'home.png')), "Home", self)
+        home_btn = QAction(QIcon(os.path.join('data/images', 'home.svg')), "Home", self)
         home_btn.setStatusTip("Go Home")
         home_btn.triggered.connect(lambda: self.navigate_home)
         navtb.addAction(home_btn)
@@ -175,29 +175,29 @@ class MainWindow(QMainWindow):
             }
         """)
         self.file_menu = QMenu('MENU', self)
-        self.file_menu.setIcon(QIcon(os.path.join('data/images', 'menu.png')))
+        self.file_menu.setIcon(QIcon(os.path.join('data/images', 'menu.svg')))
 
-        bookmarks_action = QAction(QIcon(os.path.join('data/images', 'bookmark.png')), "Bookmarks", self)
+        bookmarks_action = QAction(QIcon(os.path.join('data/images', 'bookmarkmenu.svg')), "Bookmarks", self)
         bookmarks_action.setStatusTip("Open all bookmarks")
         bookmarks_action.triggered.connect(lambda _: self.bookmarks())
         self.file_menu.addAction(bookmarks_action)
 
-        new_tab_action = QAction(QIcon(os.path.join('data/images', 'ui-tab--plus.png')), "New Tab", self)
+        new_tab_action = QAction(QIcon(os.path.join('data/images', 'newtab.svg')), "New Tab", self)
         new_tab_action.setStatusTip("Open new tab")
         new_tab_action.triggered.connect(lambda _: self.add_new_tab())
         self.file_menu.addAction(new_tab_action)
 
-        open_file_action = QAction(QIcon(os.path.join('data/images', 'disk--arrow.png')), "Open file", self)
+        open_file_action = QAction(QIcon(os.path.join('data/images', 'open.svg')), "Open file", self)
         open_file_action.setStatusTip("Open from file")
         open_file_action.triggered.connect(self.open_file)
         self.file_menu.addAction(open_file_action)
 
-        save_file_action = QAction(QIcon(os.path.join('data/images', 'disk--pencil.png')), "Save page to file", self)
+        save_file_action = QAction(QIcon(os.path.join('data/images', 'save.svg')), "Save page to file", self)
         save_file_action.setStatusTip("Open from file")
         save_file_action.triggered.connect(self.save_file)
         self.file_menu.addAction(save_file_action)
 
-        about_action = QAction(QIcon(os.path.join('data/images', 'question.png')), "About", self)
+        about_action = QAction(QIcon(os.path.join('data/images', 'info.svg')), "About", self)
         about_action.setStatusTip("Find out more about Solenox Project")
         about_action.triggered.connect(about)
         self.file_menu.addAction(about_action)
@@ -235,7 +235,7 @@ class MainWindow(QMainWindow):
 
         self.show()
 
-        self.setWindowIcon(QIcon(os.path.join('data/images', 'icon.png')))
+        self.setWindowIcon(QIcon(os.path.join('data/images', 'icon.svg')))
 
     @QtCore.pyqtSlot()
     def loadStartedHandler(self):
@@ -269,13 +269,13 @@ class MainWindow(QMainWindow):
     def mycontextMenuEvent(self, event):
         url = 'view-source:' + self.urlbar.text()
         menu = QtWidgets.QMenu(self)
-        reloadAction = menu.addAction(QIcon(os.path.join('data/images', 'arrow-circle-315.png')), "Reload page")
+        reloadAction = menu.addAction(QIcon(os.path.join('data/images', 'refresh.svg')), "Reload page")
         reloadAction.triggered.connect(lambda: self.tabs.currentWidget().reload())
 
-        innewtabAction = menu.addAction(QIcon(os.path.join('data/images', 'ui-tab--plus.png')), "Open in new tab")
+        innewtabAction = menu.addAction(QIcon(os.path.join('data/images', 'newtab.svg')), "Open in new tab")
         innewtabAction.triggered.connect(lambda: self.add_new_tab())
 
-        sourceAction = menu.addAction(QIcon(os.path.join('data/images', 'page-source.png')), "View page source")
+        sourceAction = menu.addAction(QIcon(os.path.join('data/images', 'pgsrc.svg')), "View page source")
         sourceAction.triggered.connect(lambda: self.add_new_tab(qurl=QUrl(url)))
         menu.exec_(event.globalPos())
 
@@ -373,9 +373,9 @@ class MainWindow(QMainWindow):
             return
 
         if q.scheme() == 'https':
-            self.httpsicon.setPixmap(QPixmap(os.path.join('data/images', 'lock-ssl.png')))
+            self.httpsicon.setPixmap(QPixmap(os.path.join('data/images', 'sslon.svg')))
         else:
-            self.httpsicon.setPixmap(QPixmap(os.path.join('data/images', 'lock-nossl.png')))
+            self.httpsicon.setPixmap(QPixmap(os.path.join('data/images', 'ssloff.svg')))
 
         self.urlbar.setText(q.toString())
         self.urlbar.setCursorPosition(999)
