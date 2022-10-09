@@ -29,3 +29,4 @@
 
 ### CHANGELOG Beta V0.2 Hotfix-1 (Colorful Update) (09.10.22)
 1. Fixed assets error
+2. Strange names of variables are fixed
