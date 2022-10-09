@@ -1,6 +1,5 @@
 # SolenoxBrowser
-## Important note!
-This code isn't mine! I forked it from: https://github.com/oborshch/coderlog-browser. Since the original author stopped working on the browser, I took his code and I will complete his work to the end
+Forked some code from: https://github.com/oborshch/coderlog-browser
 
 
 
@@ -42,7 +41,9 @@ fbs run
 - [x] Add ssl icon to url bar
 - [ ] New tab botton on tabs panel
 - [x] Buttons hover style
-- [ ] Site favicon in tabs and app title 
+- [ ] Site favicon in tabs and app title
+- [ ] Add dark theme
+- [ ] Add custom ControlBox 
 - [ ] Print page
 - [ ] Save page as pdf
 - [ ] Open in new tab
