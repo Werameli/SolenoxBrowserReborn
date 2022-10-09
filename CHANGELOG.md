@@ -23,5 +23,9 @@
 3. Code optimization
 4. "About" window fix
 5. #### Known issues:
-6. 1. Non-UserFriendly interface
-7. Strange name of variables
+1. 1. Non-UserFriendly interface
+2. Strange name of variables
+
+
+### CHANGELOG Beta V0.2 Hotfix-1 (Colorful Update) (09.10.22)
+1. Fixed assets error
