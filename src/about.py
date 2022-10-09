@@ -9,6 +9,7 @@ current_datetime = datetime.now()
 version = requests.get('https://pastebin.com/raw/YDyNZ5Py').text
 year = current_datetime.year
 
+
 class AboutDialog(QDialog):
     def __init__(self, *args, **kwargs):
         super(AboutDialog, self).__init__(*args, **kwargs)
@@ -23,7 +24,8 @@ class AboutDialog(QDialog):
         title = QLabel("SolenoxBrowser")
         font = title.font()
         font.setPointSize(20)
-        title.setFont(font)
+        title.setFont(QFont('Segoe UI', 20))
+        font.setBold(True)
 
         layout.addWidget(title)
 

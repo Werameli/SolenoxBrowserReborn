@@ -10,7 +10,6 @@ from PyQt5.QtWebEngineWidgets import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtWidgets import QShortcut
 from fbs_runtime.application_context.PyQt5 import ApplicationContext
-
 from about import AboutDialog
 
 
@@ -30,6 +29,7 @@ class MainWindow(QMainWindow):
         self.tabs.setTabsClosable(True)
         self.tabs.tabCloseRequested.connect(self.close_current_tab)
         self.setCentralWidget(self.tabs)
+        self.setWindowFlags(Qt.FramelessWindowHint)
 
         self.tabs.setStyleSheet("""
             QTabBar {
@@ -383,7 +383,6 @@ class MainWindow(QMainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    app.setApplicationName("Solenox Browser")
     window = MainWindow()
     window.showMaximized()
     sys.exit(app.exec_())
