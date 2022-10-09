@@ -17,7 +17,7 @@
 3. Stange names of variables
 
 
-### CHANGELOG Beta V0.2 (Colorful Update)
+### CHANGELOG Beta V0.2 (Colorful Update) (09.10.22)
 1. Fixed some bugs
 2. Brand new assets
 3. Code optimization
