@@ -37,7 +37,7 @@ fbs run
 - [x] Page source
 - [x] Downloading files
 - [x] Smooth page scrolling animation
-- [x] Full screen video support
+- [] Full screen video support
 - [x] Shortcuts
 - [x] Add ssl icon to url bar
 - [x] New tab botton on tabs panel
