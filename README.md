@@ -40,8 +40,7 @@ fbs run
 - [x] Full screen video support
 - [x] Shortcuts
 - [x] Add ssl icon to url bar
-- [ ] New tab botton on tabs panel
-- [x] Buttons hover style
+- [x] New tab botton on tabs panel
 - [ ] Site favicon in tabs and app title
 - [ ] Add dark theme
 - [ ] Add custom ControlBox 
