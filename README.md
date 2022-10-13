@@ -1,6 +1,8 @@
 # SolenoxBrowser
 Forked some code from: https://github.com/oborshch/coderlog-browser
 
+### IMPORTANT NOTE
+- Next update will be very huge and beacuse I am solo, I can't make it fast! Please, be patient and just wait
 
 
 ### List of programming languages:
