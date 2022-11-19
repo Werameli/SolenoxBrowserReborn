@@ -26,11 +26,6 @@
 - Pefile
 - CTypes
 
-## Instructions for launching from source
-```shell
-pip install -r requirements.txt
-fbs run
-```
 ## ToDo list
 
 - [x] New icons
