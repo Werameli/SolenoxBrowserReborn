@@ -1,5 +1,4 @@
 # SolenoxBrowser
-Forked some code from: https://github.com/oborshch/coderlog-browser
 ## No updates? It's because I am rewriting code from scratch.
 
 ### IMPORTANT NOTE
