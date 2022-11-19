@@ -1,5 +1,6 @@
 # SolenoxBrowser
 Forked some code from: https://github.com/oborshch/coderlog-browser
+## Project is currently unmaintained! Now I am working with chromium src
 
 ### IMPORTANT NOTE
 - Next update will be very huge and beacuse I am solo, I can't make it fast! Please, be patient and just wait
