@@ -1,5 +1,5 @@
 # SolenoxBrowser
-## No updates? It's because I am rewriting code from scratch.
+## I lost the desire to continue doing this mini-project, as there are much better browsers in the world than this one. Maybe someday I'll resurrect it
 
 ### IMPORTANT NOTE
 - Next update will be very huge and beacuse I am solo, I can't make it fast! Please, be patient and just wait
