@@ -20,7 +20,6 @@
 - Time
 - Datetime
 - Altgraph
-- FBS
 - Future
 - Macholib
 - Pefile
@@ -34,7 +33,7 @@
 - [x] Page source
 - [x] Downloading files
 - [x] Smooth page scrolling animation
-- [] Full screen video support
+- [ ] Full screen video support
 - [x] Shortcuts
 - [x] Add ssl icon to url bar
 - [x] New tab botton on tabs panel
