@@ -26,15 +26,15 @@
 ## ToDo list
 
 - [x] New icons
-- [] Tabs
-- [] Drop-down app menu
-- [] Page source
-- [] Downloading files
-- [] Smooth page scrolling animation
+- [ ] Tabs
+- [ ] Drop-down app menu
+- [ ] Page source
+- [ ] Downloading files
+- [ ] Smooth page scrolling animation
 - [ ] Full screen video support
-- [] Shortcuts
-- [] Add ssl icon to url bar
-- [] New tab botton on tabs panel
+- [ ] Shortcuts
+- [ ] Add ssl icon to url bar
+- [ ] New tab botton on tabs panel
 - [ ] Site favicon in tabs and app title
 - [ ] Add dark theme
 - [ ] Add custom ControlBox 
