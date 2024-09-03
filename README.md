@@ -1,9 +1,7 @@
-# SolenoxBrowser
-## CODE REWRITE SOON
+# SolenoxBrowser REBORN
 
-### IMPORTANT NOTE
-- Next update will be very huge and beacuse I am solo, I can't make it fast! Please, be patient and just wait
-- Also added a Sneak Peek in "about" window
+## MASSIVE REWRIT IS COMING
+## LIB STACK IS UNUPDATED
 
 ### List of programming languages:
 - Python 3.10
