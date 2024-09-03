@@ -26,22 +26,22 @@
 ## ToDo list
 
 - [x] New icons
-- [x] Tabs
-- [x] Drop-down app menu
-- [x] Page source
-- [x] Downloading files
-- [x] Smooth page scrolling animation
+- [] Tabs
+- [] Drop-down app menu
+- [] Page source
+- [] Downloading files
+- [] Smooth page scrolling animation
 - [ ] Full screen video support
-- [x] Shortcuts
-- [x] Add ssl icon to url bar
-- [x] New tab botton on tabs panel
+- [] Shortcuts
+- [] Add ssl icon to url bar
+- [] New tab botton on tabs panel
 - [ ] Site favicon in tabs and app title
 - [ ] Add dark theme
 - [ ] Add custom ControlBox 
 - [ ] Print page
 - [ ] Save page as pdf
 - [ ] Open in new tab
-- [x] Add html page to start tab
+- [ ] Add html page to start tab
 - [ ] Links with tag target blank dont work
 - [ ] Bookmarks
 - - [ ] Save current page to bookmarks
