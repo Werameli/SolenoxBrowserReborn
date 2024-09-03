@@ -1,6 +1,6 @@
 # SolenoxBrowser REBORN
 
-## MASSIVE REWRIT IS COMING
+## MASSIVE REWRITE IS COMING
 ## LIB STACK IS UNUPDATED
 
 ### List of programming languages:
